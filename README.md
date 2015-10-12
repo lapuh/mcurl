@@ -160,7 +160,7 @@ Example:
 ```php
 //channel 10 Mb.
 $client->setMaxRequest (123);
-$client->setOptions([CURLOPT_MAX_RECV_SPEED_LARGE => (10 * 1024 ^ 3) / 123]);
+$client->setCurlOption([CURLOPT_MAX_RECV_SPEED_LARGE => (10 * 1024 ^ 3) / 123]);
 ```
 ### Cookbook
 
